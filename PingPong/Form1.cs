@@ -65,7 +65,7 @@ namespace PingPong
             if (pictureBox1.Right >= pole.Right)
                 speed_hor *= -1;
             if (pictureBox1.Top <= pole.Top)
-                speed_hor *= -1;
+                speed_vertical *= -1;
             if (pictureBox1.Bottom >= pole.Bottom)
             {
                 timer.Enabled = false;
